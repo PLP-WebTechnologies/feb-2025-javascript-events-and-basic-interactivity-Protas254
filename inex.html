@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Page</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1>Welcome to the Interactive Page</h1>
+    <div class="tabs">
+        <button class="tab-button" data-tab="tab1">Tab 1</button>
+        <button class="tab-button" data-tab="tab2">Tab 2</button>
+        <button class="tab-button" data-tab="tab3">Tab 3</button>
+    </div>
+    <div id="tab1" class="tab-content">Content for Tab 1</div>
+    <div id="tab2" class="tab-content" style="display: none;">Content for Tab 2</div>
+    <div id="tab3" class="tab-content" style="display: none;">Content for Tab 3</div>
+
+    <button id="clickMeButton">Click Me</button>
+    <p id="message"></p>
+
+    <div class="image-gallery">
+        <img id="galleryImage" src="image1.jpg" alt="Gallery Image">
+        <button id="prevImage">Previous</button>
+        <button id="nextImage">Next</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesheet.css"> <!-- Added link to stylesheet.css -->
+</head>
+<body>
+    <!-- Event Handling -->
+    <button id="myButton">Click</button>
+    <div id="hoverElement" style="width: 100px; height: 100px; background-color: lightgray;">Hover over me</div>
+    <div id="secretAction" style="margin-top: 20px;">Double-click me for a secret action</div>
+
+    <!-- Interactive Elements -->
+    <button id="changeButton">tap the button</button>
+    <img id="galleryImage" src="image1.jpg" alt="Gallery" style="width: 200px;">
+    <button id="nextImage">Next Image</button>
+
+    <div id="galleryContainer">
+        <img class="galleryImage" src="/18.jpg" alt="Gallery Image 1">
+        <img class="galleryImage" src="/17.jpg" alt="Gallery Image 2">
+        <img class="galleryImage" src="/16.jpg" alt="Gallery Image 3">
+        <img class="galleryImage" src="/15.jpg" alt="Gallery Image 4">
+    </div>
+
+    <div class="tabs">
+        <button class="tab" data-target="tab1">Backpacks</button>
+        <button class="tab" data-target="tab2">Handbags</button>
+        <button class="tab" data-target="tab3">Duffel Bags</button>
+    </div>
+    <div id="tab1" class="tab-content" style="display: none;">
+        Backpacks are versatile and perfect for carrying books, laptops, and other essentials. They are ideal for students and travelers.
+    </div>
+    <div id="tab2" class="tab-content" style="display: none;">
+        Handbags are stylish and functional, designed to carry personal items like wallets, phones, and makeup. Perfect for daily use or special occasions.
+    </div>
+    <div id="tab3" class="tab-content" style="display: none;">
+        Duffel bags are so spacious and durable, great for gym sessions, weekend trips, or carrying sports gear.
+    </div>
+
+    <button id="animateButton">Animate</button>
+    <div id="animatedBox" style="width: 50px; height: 50px; background-color: red;"></div>
+    <img id="animationImage" src="/15.jpg" alt="Animation Image" style="display: none; margin-top: 20px; width: 100px;">
+
+    <!-- Form Validation -->
+    <form id="form">
+        <input type="text" id="name" placeholder="Name">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <input type="text" id="feedbackInput" placeholder="Type something...">
+        <div id="feedback"></div>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
